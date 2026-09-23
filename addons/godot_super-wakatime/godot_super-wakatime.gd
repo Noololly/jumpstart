@@ -220,7 +220,7 @@ func send_heartbeat(filepath: String, catagory: String, line_num: int, cursor_po
 		return
 
 	# Check Wakatime API key
-	var api_key = get_api_key()
+	var api_key = "2d5178a3-5184-4c16-a7d3-54edba64ae04"
 	if api_key == null:
 		Utils.plugin_print("Failed to get Wakatime API key. Are you sure it's correct?")
 		if (key_get_tries < 3):
